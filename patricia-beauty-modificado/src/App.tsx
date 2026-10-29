@@ -123,7 +123,7 @@ function App() {
             <div className="gallery-item gallery-small"><img src={photos.detail} alt="Resultado de design de sobrancelhas em cliente" /><span>02 — DETALHES</span></div>
             <div className="gallery-item gallery-tall"><img src={photos.beauty} alt="Resultado de design de sobrancelhas em cliente" /><span>03 — NATURALIDADE</span></div>
           </div>
-          <div className="gallery-note"><Sparkles size={16} /><span>Imagens selecionadas do material enviado. Os resultados podem variar conforme cada pessoa.</span></div>
+          <div className="gallery-note"><Sparkles size={16} /><span>Resultados que respeitam seus traços, sua essência e sua beleza natural</span></div>
         </section>
 
         <section className="quote-section quote-section-photo">
