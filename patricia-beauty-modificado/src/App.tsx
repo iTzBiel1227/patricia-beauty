@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="site-shell">
-      <div className="announcement"><span>BELEZA COM INTENÇÃO. TÉCNICA COM PROPÓSITO.</span><span className="announcement-right">BEAUTY & ACADEMY <span>✳</span></span></div>
+      <div className="announcement"><span>BELEZA COM INTENÇÃO. TÉCNICA COM PROPÓSITO.</span><span className="announcement-right">BEAUTY & ACADEMY <span><Asterisk size={18} /></span></span></div>
       <header className="header">
         <a href="#inicio" className="brand" aria-label="Patricia Leonardo - início">
           <span className="brand-monogram">PL</span>
@@ -84,7 +84,7 @@ function App() {
             <p>Meu trabalho une técnica, visagismo e posicionamento profissional, oferecendo um atendimento cuidadoso, personalizado e de alto padrão. Além de atender clientes que buscam excelência, formo profissionais que desejam se destacar com segurança e autoridade no mercado da beleza.</p>
             <div className="signature">Patricia Leonardo <span>Beauty artist & Educator</span></div>
           </div>
-          <div className="intro-deco">PL<span>✳</span></div>
+          <div className="intro-deco">PL<span><Asterisk size={18} /></span></div>
         </section>
 
         <section className="services-section" id="procedimentos">
@@ -113,7 +113,7 @@ function App() {
             <button className="button button-cream" onClick={() => openContact('curso presencial')}>Quero saber sobre o curso <ArrowRight size={16} /></button>
             <span className="academy-small">TURMAS E INVESTIMENTO SOB CONSULTA</span>
           </div>
-          <div className="academy-mark">ACADEMY <span>✳</span></div>
+          <div className="academy-mark">ACADEMY <span><Asterisk size={18} /></span></div>
         </section>
 
         <section className="results-section section-wrap" id="resultados">
