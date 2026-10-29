@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {
   ArrowDownRight, ArrowRight, Check, Menu, MessageCircle,
-  Sparkles, X, Instagram, GraduationCap
+  Sparkles, X, Instagram, GraduationCap, Asterisk
 } from 'lucide-react'
 import { INSTAGRAM_URL, whatsappLink } from './config'
 
@@ -63,11 +63,11 @@ function App() {
               <button className="button button-dark" onClick={() => openContact('procedimento')}>Agende seu momento <ArrowRight size={16} /></button>
               <a className="text-link" href="#sobre">Conheça a Patricia <ArrowDownRight size={17} /></a>
             </div>
-            <div className="hero-note"><span className="note-star">✦</span><span>Atendimento personalizado<br /><b>Curso de Design de Sobrancelhas</b></span></div>
+            <div className="hero-note"><span className="note-star"><Asterisk size={22} /></span><span>Atendimento personalizado<br /><b>Curso de Design de Sobrancelhas</b></span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap"><img src={photos.hero} alt="Patricia Leonardo em retrato profissional" /><div className="image-shade" /></div>
-            <div className="hero-stamp"><span>BEAUTY</span><span className="stamp-symbol">✦</span><span>IN EVERY DETAIL</span></div>
+            <div className="hero-stamp"><span>BEAUTY</span><span className="stamp-symbol"><Asterisk size={22} /></span><span>IN EVERY DETAIL</span></div>
             <div className="hero-side-label">PATRICIA LEONARDO · BEAUTY & ACADEMY</div>
             <div className="hero-caption"><span>01 / 03</span><span>O cuidado começa no olhar.</span></div>
           </div>
